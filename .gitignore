@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (too large for GitHub)
+data/raw/*.csv
+data/processed/*.csv
+*.db
+
+# Environment secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (large)
+*.pkl
+*.joblib
+*.h5
